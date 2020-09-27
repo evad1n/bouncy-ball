@@ -1,0 +1,30 @@
+body {
+    background-color: #42b3f5;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    background-color: yellow;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.wall {
+    background-color: green;
+    position: absolute;
+    z-index: -1;
+}
+
+#game-over {
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    font-size: xx-large;
+    display: none;
+    z-index: 2;
+}
+
+#score-container {
+    z-index: 2;
+}
